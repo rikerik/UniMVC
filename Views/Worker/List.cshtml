@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Dolgozók";
+}
+
+@model List<Worker> 
+
+<h1>Dolgozók</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Vezetéknév</th>
+            <th>Kor</th>
+            <th>Fizetés</th>
+            <th>Munkaviszony ideje</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var worker in Model)
+        {
+            <tr>
+                <td>@worker.Id</td>
+                <td>@worker.LastName</td>
+                <td>@worker.Age éves</td>
+                <td>@worker.Salary.ToString("#,##0 Ft")</td>
+                <td>@worker.EmploymentDuration év</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Worker" asp-action="Edit" asp-route-id="@worker.Id">Szerkesztés</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

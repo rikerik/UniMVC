@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Statisztikák";
+}
+
+@model IEnumerable<string> 
+@{
+    var workersAboveAverageSalary = ViewBag.WorkersAboveAverageSalary as List<Worker>;
+    var workersBelowAverageAge = ViewBag.WorkersBelowAverageAge as List<Worker>;
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Általános Statisztikák</h1>
+            <div class="row">
+                <div class="col-md-4 border">
+                    <p class="text-center"><strong>Legfiatalabb dolgozó</strong></p>
+                    <p><strong>Név:</strong> @ViewBag.YoungestWorker.LastName</p>
+                    <p><strong>Kor:</strong> @((int)ViewBag.YoungestWorker.Age) éves</p>
+                    <p><strong>Bér:</strong> @(((int)ViewBag.YoungestWorker.Salary).ToString("#,##0 Ft")) Ft</p>
+                    <p><strong>Munkaviszony:</strong> @((int)ViewBag.YoungestWorker.EmploymentDuration) év</p>
+                </div>
+                <div class="col-md-4 border">
+                    <p class="text-center"><strong>Legidősebb dolgozó</strong></p>
+                    <p><strong>Név:</strong> @ViewBag.OldestWorker.LastName</p>
+                    <p><strong>Kor:</strong> @((int)ViewBag.OldestWorker.Age) éves</p>
+                    <p><strong>Bér:</strong> @(((int)ViewBag.OldestWorker.Salary).ToString("#,##0 Ft")) Ft</p>
+                    <p><strong>Munkaviszony:</strong> @((int)ViewBag.OldestWorker.EmploymentDuration) év</p>
+                </div>
+                <div class="col-md-4 border">
+                    <p class="text-center"><strong>Legtöbb munkaviszonnyal rendelkező dolgozó</strong></p>
+                    <p><strong>Név:</strong> @ViewBag.WorkerWithMostYears.LastName</p>
+                    <p><strong>Kor:</strong> @((int)ViewBag.WorkerWithMostYears.Age) éves</p>
+                    <p><strong>Bér:</strong> @(((int)ViewBag.WorkerWithMostYears.Salary).ToString("#,##0 Ft")) Ft</p>
+                    <p><strong>Munkaviszony:</strong> @((int)ViewBag.WorkerWithMostYears.EmploymentDuration) év</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Dolgozók átlagbér felett</h2>
+                    <ul class="list-group">
+                    @foreach (var worker in workersAboveAverageSalary)
+                    {
+                            <li class="list-group-item">
+                                <strong>Név:</strong> @Html.DisplayFor(modelItem => worker.LastName)<br />
+                                <strong>Életkor:</strong> @Html.DisplayFor(modelItem => worker.Age) év<br />
+                            <strong>Bér:</strong> @(((decimal)worker.Salary).ToString("#,##0 Ft"))<br />
+                                <strong>Munkaviszony:</strong> @Html.DisplayFor(modelItem => worker.EmploymentDuration) év
+                            </li>
+                    }
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>Dolgozók átlagéletkor alatt</h2>
+                    <ul class="list-group">
+                    @foreach (var worker in workersBelowAverageAge)
+                    {
+                            <li class="list-group-item">
+                                <strong>Név:</strong> @Html.DisplayFor(modelItem => worker.LastName)<br />
+                                <strong>Életkor:</strong> @Html.DisplayFor(modelItem => worker.Age) év<br />
+                            <strong>Bér:</strong> @(((decimal)worker.Salary).ToString("#,##0 Ft"))<br />
+                                <strong>Munkaviszony:</strong> @Html.DisplayFor(modelItem => worker.EmploymentDuration) év
+                            </li>
+                    }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>

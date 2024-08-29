@@ -1,0 +1,212 @@
+[
+  {
+    "Név": "Kovács",
+    "Életkor": 60,
+    "Bér": 258136,
+    "Munkaviszony": 30
+  },
+  {
+    "Név": "Tóth",
+    "Életkor": 62,
+    "Bér": 344649,
+    "Munkaviszony": 31
+  },
+  {
+    "Név": "Szabó",
+    "Életkor": 45,
+    "Bér": 211838,
+    "Munkaviszony": 10
+  },
+  {
+    "Név": "Horváth",
+    "Életkor": 43,
+    "Bér": 147582,
+    "Munkaviszony": 8
+  },
+  {
+    "Név": "Varga",
+    "Életkor": 39,
+    "Bér": 257179,
+    "Munkaviszony": 10
+  },
+  {
+    "Név": "Kiss",
+    "Életkor": 22,
+    "Bér": 266386,
+    "Munkaviszony": 2
+  },
+  {
+    "Név": "Molnár",
+    "Életkor": 35,
+    "Bér": 327180,
+    "Munkaviszony": 5
+  },
+  {
+    "Név": "Németh",
+    "Életkor": 38,
+    "Bér": 229340,
+    "Munkaviszony": 8
+  },
+  {
+    "Név": "Farkas",
+    "Életkor": 48,
+    "Bér": 256024,
+    "Munkaviszony": 15
+  },
+  {
+    "Név": "Balogh",
+    "Életkor": 53,
+    "Bér": 240092,
+    "Munkaviszony": 20
+  },
+  {
+    "Név": "Papp",
+    "Életkor": 49,
+    "Bér": 328063,
+    "Munkaviszony": 25
+  },
+  {
+    "Név": "Lakatos",
+    "Életkor": 54,
+    "Bér": 262812,
+    "Munkaviszony": 15
+  },
+  {
+    "Név": "Takács",
+    "Életkor": 39,
+    "Bér": 204244,
+    "Munkaviszony": 6
+  },
+  {
+    "Név": "Juhász",
+    "Életkor": 35,
+    "Bér": 302513,
+    "Munkaviszony": 5
+  },
+  {
+    "Név": "Ács",
+    "Életkor": 59,
+    "Bér": 322615,
+    "Munkaviszony": 20
+  },
+  {
+    "Név": "Fodor",
+    "Életkor": 44,
+    "Bér": 154566,
+    "Munkaviszony": 10
+  },
+  {
+    "Név": "Simon",
+    "Életkor": 21,
+    "Bér": 205113,
+    "Munkaviszony": 1
+  },
+  {
+    "Név": "Rácz",
+    "Életkor": 34,
+    "Bér": 266891,
+    "Munkaviszony": 10
+  },
+  {
+    "Név": "Pécsi",
+    "Életkor": 60,
+    "Bér": 182294,
+    "Munkaviszony": 29
+  },
+  {
+    "Név": "Aradi",
+    "Életkor": 34,
+    "Bér": 214409,
+    "Munkaviszony": 10
+  },
+  {
+    "Név": "Török",
+    "Életkor": 20,
+    "Bér": 227295,
+    "Munkaviszony": 1
+  },
+  {
+    "Név": "Fehér",
+    "Életkor": 37,
+    "Bér": 184045,
+    "Munkaviszony": 15
+  },
+  {
+    "Név": "Balázs",
+    "Életkor": "59",
+    "Bér": "282222",
+    "Munkaviszony": "25"
+  },
+  {
+    "Név": "Gál",
+    "Életkor": 53,
+    "Bér": 237976,
+    "Munkaviszony": 23
+  },
+  {
+    "Név": "Kis",
+    "Életkor": 21,
+    "Bér": 132945,
+    "Munkaviszony": 1
+  },
+  {
+    "Név": "Szűcs",
+    "Életkor": 31,
+    "Bér": 283423,
+    "Munkaviszony": 2
+  },
+  {
+    "Név": "Kocsis",
+    "Életkor": 36,
+    "Bér": 313960,
+    "Munkaviszony": 5
+  },
+  {
+    "Név": "Orsós",
+    "Életkor": 27,
+    "Bér": 322222,
+    "Munkaviszony": 2
+  },
+  {
+    "Név": "Pintér",
+    "Életkor": 61,
+    "Bér": 305690,
+    "Munkaviszony": 35
+  },
+  {
+    "Név": "Hegedüs",
+    "Életkor": 54,
+    "Bér": 330912,
+    "Munkaviszony": 25
+  },
+  {
+    "Név": "Szalai",
+    "Életkor": 34,
+    "Bér": 344408,
+    "Munkaviszony": 11
+  },
+  {
+    "Név": "Sipos",
+    "Életkor": 42,
+    "Bér": 234922,
+    "Munkaviszony": 12
+  },
+  {
+    "Név": "Magyar",
+    "Életkor": 28,
+    "Bér": 235652,
+    "Munkaviszony": 3
+  },
+  {
+    "Név": "Pécsi",
+    "Életkor": 20,
+    "Bér": 295545,
+    "Munkaviszony": 1
+  },
+  {
+    "Név": "Gáspár",
+    "Életkor": 46,
+    "Bér": 172342,
+    "Munkaviszony": 11
+  }
+]
